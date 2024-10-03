@@ -1,0 +1,45 @@
+body
+{background: lightgray;
+margin: 0;
+}
+Header{
+    background: white;
+    padding: 10px;  
+}
+header h1{
+    margin: 0;    
+}
+div.Post{
+    margin-top: 10px;
+    background: white;
+}
+div.Post img{
+width: 100%;
+}
+div.Post .Post-Header div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+div.Post .Post-Header div:last-child{
+    display: inline-block;
+    width: 18%;
+    text-align: right;
+    color: gray;
+}
+div.Post h2, div.Post p{
+    padding: 10px;
+    margin: 0;
+}
+div.Container{
+    width: 600px;
+margin: auto;
+}
+.div{
+    box-sizing: border-box;
+}
+
+
+
+.Bullish{
+    color: gold;
+}
